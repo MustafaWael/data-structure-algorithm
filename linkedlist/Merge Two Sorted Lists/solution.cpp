@@ -33,7 +33,7 @@ public:
     }
 
     ListNode* merged = dummy->next;
-    delete dummy; // free the dummy node
+    delete dummy;
     return merged;
 
   }
